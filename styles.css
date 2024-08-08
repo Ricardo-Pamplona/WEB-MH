@@ -20,13 +20,11 @@ h1{
     font-size: xx-large;
 }
 h2{
-    color: rgb(0, 0, 0);
-    -webkit-text-fill-color: rgb(255, 255, 255);
-    -webkit-text-stroke: 0.75px;
-    width: 15%;
     height: auto;
     float: left;
     font-size: xx-large;
+    text-align: end;
+    width: 100%;
 }
 .header{
     background-color: white;
@@ -117,20 +115,34 @@ input {
     width: 100%;
     flex: 1;
 }
+.wrapper2 h2{
+    color: rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.75px;
+
+}
 
 .about{
     background-color: white;
     border-radius: 15px;
     font-size: larger;
-    width: 60%;
+    width: 40%;
     height: auto;
     text-align: center;
 }    
 .hire{
     background-color: white;
     border-radius: 15px;
-    width: 60%;
+    width: 40%;
     height: auto;
     margin-top: 10px;
-    
+    text-align:center;
+    color:black;
+    font-size: medium;
+    margin-top: 10px; 
+    font-weight: normal; 
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 0px;
+    margin-left: auto;
+    margin-right: 0;
 }
