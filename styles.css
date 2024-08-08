@@ -1,0 +1,136 @@
+@font-face {
+    font-family:MHfont;
+    src: url(fonts/monsterhunter.ttf);
+}
+body{
+    background-image: url(images/old_paper.jpg);
+    font-family: MHfont, sans-serif;
+    margin:0px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+h1{
+    color: rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.75px;
+    width: 15%;
+    height: auto;
+    font-size: xx-large;
+}
+h2{
+    color: rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.75px;
+    width: 15%;
+    height: auto;
+    float: left;
+    font-size: xx-large;
+}
+.header{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 0px 0px 10px 10px;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+.homeb{
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.slideshow {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%; 
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 30px;
+    height: 430px;
+    cursor: pointer;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+input:checked + label {
+    height: 470px;
+    width: 70%;
+}
+
+input {
+    display: none
+}
+
+.b1 {
+    background-image: url(images/chill.jpg);
+}
+
+.b2 {
+    background-image: url(images/fight.jpg);
+}
+
+.b3 {
+    background-image: url(images/Home.jfif);
+}
+
+.b4 {
+    background-image: url(images/base.webp);
+}
+
+.b5 {
+    background-image: url(images/felyne.webp);
+}
+
+.text{
+    color: rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 3px;
+    width: 15%;
+    height: auto;
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    display: none;
+}
+#img3:checked + .box .text {
+    display: block;
+}
+
+.wrapper{
+    background-image: url(images/old_paper.jpg);
+    width: 100%;
+    flex: 1;
+}
+
+.about{
+    background-color: white;
+    border-radius: 15px;
+    font-size: larger;
+    width: 60%;
+    height: auto;
+    text-align: center;
+}    
+.hire{
+    background-color: white;
+    border-radius: 15px;
+    width: 60%;
+    height: auto;
+    margin-top: 10px;
+    
+}
