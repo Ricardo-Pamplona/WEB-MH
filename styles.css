@@ -1,9 +1,9 @@
 @font-face {
-    font-family:MHfont;
+    font-family: MHfont;
     src: url(fonts/monsterhunter.ttf);
 }
 body{
-    background-image: url(images/old_paper.jpg);
+   background-color: black;
     font-family: MHfont, sans-serif;
     margin:0px;
     align-items: center;
@@ -157,5 +157,7 @@ input {
 }
 .footer h3{
     text-align: center;
-    color: white
+    color: white;
+    height: ;
+    width: 100%;
 }
